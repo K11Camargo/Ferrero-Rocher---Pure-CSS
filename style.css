@@ -1,0 +1,50 @@
+body{
+    background-image: url(./img/background.svg);
+    z-index: 5;
+    background-color: #2E1012;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pure-u-1-3{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pure-u-1-3:nth-child(2){
+    background-color: #F3CC4D;
+    display: flex;
+    align-items: baseline;
+}
+
+
+.pure-u-1-3:nth-child(2) .pure-img{
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    margin: 5vh;
+}
+
+
+.textocentral p {
+    font-family: "Indie Flower", cursive;
+    font-size: 32px;
+    align-items: center;
+    margin: 40px;
+    padding-top: 50%;
+}
+
+.pure-button{
+    position: absolute;
+    top: 80%;
+    font-family: "Indie Flower", cursive;
+    background-color: #2E1012;
+    color: aliceblue;
+    width: 158px;
+    height: 50px;
+    font-size: x-large;
+
+
+}
